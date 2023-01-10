@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{   
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+}
+
+ul,li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+
+}
+
+h2{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+
+}
+
+h3{
+    margin: 0;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+
+}
+
+h4{
+    margin: 0;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+}
+
+h5{
+    margin: 0;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+
+p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a{
+
+    display: block;
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+}
+
+hr{
+    margin-top: 29px;
+    margin-bottom: 32px;
+    background: 1px  #E0E0E0;
+}
+
+.conteiner{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.conteiner-blog{
+    width: 695px;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 806px;
+    margin-right: 60px;
+}
+
+.menu li a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    transition: all 0.5s ;
+}
+
+.menu li a.active{
+    color: #FF6464;
+}
+
+.menu li a:hover{
+    color: #FF6464;
+}
+
+.menu li{
+    margin-left: 30px;
+}
+
+.card-1 img{
+    padding-top: 11px;
+    padding-left: 0;
+    border-radius: 6px;
+}
+
+.card-1 h2{
+    display: block;
+    margin-top: -193px;
+    margin-left: 286px;
+}
+
+.year{
+    display: block;
+    margin-top: -32px;
+    margin-left: 286px;
+}
+
+.card-1 a{
+    color: #8695a4;
+    margin-top: -43px;
+    margin-left: 378px;
+}
+
+.card-1 p{
+    margin-left: 286px;
+}
+
+.card-1 hr{
+    margin-top: 44px;
+}
+
+footer{
+    margin-top: 83px;
+    padding-top: 51px;
+    padding-bottom: 54px;
+    margin-bottom: 54px;
+}
+
+.social{
+    display: flex;
+    margin: auto;
+    width: 232px;
+    height: 30px;
+}
+
+.social a img{
+    margin-left: 35px;
+}
+
+.social a:first-child img{
+    margin-left: 0;
+}
+
+.p-footer{
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 465px;
+    margin-right: 465px;
+    margin-bottom: 54px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+
+}
